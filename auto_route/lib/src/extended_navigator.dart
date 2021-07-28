@@ -22,7 +22,7 @@ typedef OnNavigationRejected = void Function(RouteGuard guard);
 
 class ExtendedNavigator<T extends RouterBase> extends StatefulWidget {
   static TransitionBuilder builder<T extends RouterBase>({
-    GlobalKey<NavigatorState> navigatorKey,
+   // GlobalKey<NavigatorState> navigatorKey,
     List<NavigatorObserver> observers = const [],
     RouteFactory onUnknownRoute,
     String initialRoute,
